@@ -70,12 +70,24 @@ Rachelle L. Speth\thanks{Graduate Research Assistant. Student Member, AIAA},
 Experimentation was conducted in the free jet facility (a schematic of which can be found in Fig. \ref{GDTLschematic}) at the GDTL within the Ohio State University's Aerospace Research Center.The dimensions of the chamber are 5.14 m wide by 4.48 m long and 2.53 m high (wedge-tip to wedge-tip). The design of the chamber produces an anechoic cutoff frequency of 160 Hz, below the frequencies of interest for this study. Additional details of the facility design and validation can be found in Hahn \cite{Hahn2011}. Compressed, dried, and filtered air is supplied by two cylindrical storage tanks with a total capacity of 43 m$^3$ and maximum pressure of 16 MPa; the tanks are charged by three, five-stage reciprocating compressors. The air enters the facility horizontally, passes through a stagnation chamber and turbulence screens, and exhausts through a converging nozzle. Opposite the nozzle, a collector accumulates the jet and entrained air and exhausts to the outdoors.
 
 A converging, axisymmetric nozzle with exit diameter of 25.4 mm was used in the current study. The internal contour of the nozzle was designed using a fifth order polynomial. The nozzle utilized a thick-lipped design in order to simplify the mounts for the LAFPA extension, which housed the eight actuators used in this study.For the experiments reported in this paper, the jet was operated at a Mach number, $M_{j}$, of 0.90, and with a total temperature ratio of unity.The Reynolds number based on the jet exit diameter was $6.2 \times 10^{5}$; previous investigations using hot-wire anemometry have indicated that the initial shear layer is turbulent for this operating condition with momentum thickness ~0.09 mm and boundary layer thickness ~1 mm \cite{kfm2009-1}. 
-	\begin{figure}
-		\begin{center}
-			\includegraphics[width=3.5in]{GDTL_facility_schematic.png}
-			\caption{Plan view of GDTL free jet facility; dimensions in meters.}\label{GDTLschematic}
-		\end{center}
-	\end{figure}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=3.5in]{GDTL_facility_schematic.png}
+		\caption{Plan view of GDTL free jet facility; dimensions in meters.}\label{GDTLschematic}
+	\end{center}
+\end{figure}
+	
+Excitation was applied to jet shear layer via eight LAFPAs which were uniformly spaced around the nozzle perimeter 1 mm upstream of the nozzle exit. Each LAFPA consists of a pair of tungsten pin electrodes with tip spacing (center-to-center) of 4 mm. The electrodes are housed in a boron nitride extension attached to the end of the nozzle.A more detailed description of LAFPA characteristics can be found in Utkin et al. \cite{uyg2007-1}. The LAFPAs are energized by a multi-channel, high-voltage plasma power generator capable of simultaneously powering up to eight LAFPAs, which was designed and built in-house at the GDTL. In the second-generation power supply, each individual circuit consists of a switchable capacitor in line with a high voltage transformer; the arcing electrodes are connected to the secondary side of the coil.The switches are controlled by a 16-channel digital I/O card and National Instruments' Labview software, operated by a dedicated computer. The plasma generator provides independent control of the frequency, duty cycle/pulse width, and phase of each individual actuator (though at a constant amplitude of 5 kV).The pulse width was held constant at 7 $\mu$s, which was found to be the minimum pulse width at which the actuators consistently arced for all frequencies explored in this study \cite{hkfs-2011}. In order to improve our understanding of the linear and nonlinear dynamics of the large-scale structure interactions, the excitation Strouhal numbers ranges from 0.02 to 0.50; an azimuthal mode of $m = 0$ was used in all cases.
+
+Near-field and far-field pressure measurements were acquired simultaneously, using Brüel \& Kjær 1/4 inch 4939 microphones. The signal from each microphone is band-pass filtered from 20 Hz to 100 kHz using a Brüel \& Kjær Nexus 2690 conditioning amplifier, and recorded using National Instruments PXI-6133 A/D boards and LabView software. The microphones are calibrated using a Brüel \& Kjær 114 dB, 1 kHz sine wave generator. The frequency response of the microphones is flat up to roughly 80 kHz, with the protective grid covers removed. Voltage signals are collected at 200 kHz with 81920 data points per block; sub-blocks of 8192 data points were used when calculating short-time power spectral densities, resulting in a frequency resolution of 24.4 Hz. Ten blocks were recorded for each case, resulting in four seconds of data. Analysis of the far-field acoustic spectra found this length to be sufficient for statistical convergence of the turbulence statistics.
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=3.5in]{GDTL_mic_locations.png}
+		\caption{Near-field microphone array grid.}\label{mic_grid}
+	\end{center}
+\end{figure}
+
+Far-field acoustic pressure is acquired at three polar angles: 30°, 60° and 90°, as measured from the downstream jet axis. The radial distance of the microphones ranges from 101D at 30° to 145D at 60°. The near-field pressure was acquired using a linear array of sixteen microphones located along the meridional plane of the jet; the spacing varied along the array from 1D to 2D (Fig. \ref{mic_grid}). The linear array is mounted to a traverse system at an angle of 8.6° to the jet axis in order to match the spreading angle of the jet shear layer for this Mach number \cite{kfm2009-1}. The traverse is controlled using LabView and enables the acquisition of pressure measurements at various radial positions with respect to the jet axis. Initially, the most upstream microphone is positioned at x/D = 1 and r/D = 1.20, to ensure that the microphone tips are outside the mixing layer and do not affect the flow field. For subsequent cases, the microphone array is incremented radially outward by 0.5D for a total travel distance of 7D. Signals from the near-field array are preprocessed in order to remove actuator-self noise while retaining the true hydrodynamic and acoustic response of the jet. This has been accomplished via a filter operating in the continuous wavelet domain. Further details may be found in Crawley et al. \cite{Crawley2015}.
 
 \section{Computational Model}\label{theo}
 The simulations employ the same approach as previously used
@@ -129,14 +141,13 @@ explicit boundary condition implementation.
  Non-reflecting conditions are applied to the downstream and far-field
  boundaries. Stagnation conditions are specified at the first $\xi$
  plane of the nozzle ($\rho_{inlet}=2.04kg/m^{3}$, $U_{inlet}=22m/s$, $P_{inlet}=171,427Pa$) to
-%???? Why specify rho, U and P at the entrance, but rho U and T at the exit???
  achieve perfectly expanded nozzle exit conditions corresponding to
  $\rho_{jet}=1.404kg/m^{3}$, $U_{jet}=285.99m/s$, $T_{jet}=251.31K$ which match the experiments.
  Based on the nozzle diameter therefore, the Reynolds number is
  $Re=635,308$. The nozzle geometry resembles that of the 
  experiments including the nozzle ring on which the actuators are
  mounted. 
-The velocity profile at the entrance to the nozzle is that
+ The velocity profile at the entrance to the nozzle is that
  of a uniform flow (zero at the wall and $U_{inlet}$ everywhere else).
  Perturbations were not introduced into the inflow due to the
  unknown perturbations in the experiment. Therefore, the simulations
@@ -159,7 +170,7 @@ The LAFPAs are modeled after the experiments using a surface heating
 technique to excite jet shear layer instabilities and azimuthal modes
 within the jet.  Eight actuators are placed around the periphery of
 the jet on the nozzle collar at the locations and dimensions of the
-experiments as explained above in Section~\ref{lafpa}. As shown in
+experiments as explained previously. As shown in
 Fig.~\ref{fig:actuator}b, each actuator consists of a heated region of
 the nozzle wall which extends the azimuthal length corresponding to
 the separation distance between electrodes ($3 mm$) and has an axial
@@ -196,19 +207,9 @@ the theoretical predictions of Cohen and Wygnanski~\cite{cj87-2}.
 Like the experiments, the axisymmetric ($m=0$) mode was employed to
 study a range of Strouhal numbers. The Strouhal numbers studied in the
 simulations include: $0.05$, $0.15$, and $0.25$. Data was acquired
-every timestep at the point probes depicted in Fig.~\ref{GDTLsetup}b
+every timestep at the point probes depicted in Fig.~\ref{mic_grid}
 as well as on several $\xi$, $\eta$, and $\zeta$ computational planes.
 Phase-averaged data were also computed for each of the simulations.
-
-%Ani's 2012 physics of fluids paper should be cited here [MC]
-
-%should i try to explain? The lower Reynolds number jet is harder to
-%control due to the excitation having to combat the naturally
-%occurring organized large scale structures. While in the high
-%Reynolds number case the large scale structures are less organized
-%(more turbulent) and therefore are easier to control. ------I would
-%mention it. [MC] 
-
 \section{Results}\label{results} 
 
 
