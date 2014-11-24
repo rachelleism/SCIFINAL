@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2014.9.23)  24 NOV 2014 14:53
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2012.12.12)  24 NOV 2014 16:47
 entering extended mode
  %&-line parsing enabled.
 **SCITECH2015.tex
@@ -408,55 +408,53 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (11.49495pt too wide) in paragraph at lines 80--82
+[]\T1/lmr/m/n/10 The cur-rent work rep-re-sents the first stage in as-sim-i-lat
+-ing anal-y-ses from the experimentally- and numerically-
+ []
+
 <GDTL_facility_schematic.png, id=14, 234.8775pt x 195.4575pt>
 File: GDTL_facility_schematic.png Graphic file (type png)
 
 <use GDTL_facility_schematic.png> [2]
-<GDTL_mic_locations.png, id=23, 225.351pt x 156.0375pt>
+<GDTL_mic_locations.png, id=22, 225.351pt x 156.0375pt>
 File: GDTL_mic_locations.png Graphic file (type png)
 
 <use GDTL_mic_locations.png> [3 <./GDTL_facility_schematic.png (PNG copy)>]
 <MACH09ComputationalDomain1.png, id=28, 718.8456pt x 515.526pt>
 File: MACH09ComputationalDomain1.png Graphic file (type png)
 
-<use MACH09ComputationalDomain1.png>
-
-LaTeX Warning: Reference `GDTLsetup' on page 4 undefined on input line 144.
-
-[4 <./GDTL_mic_locations.png>]
-<actuatormodelnew.png, id=35, 480.3546pt x 221.628pt>
+<use MACH09ComputationalDomain1.png> [4 <./GDTL_mic_locations.png>]
+<actuatormodelnew.png, id=34, 480.3546pt x 221.628pt>
 File: actuatormodelnew.png Graphic file (type png)
 
 <use actuatormodelnew.png> [5 <./MACH09ComputationalDomain1.png> <./actuatormod
 elnew.png>] (./SCITECH2015.bbl [6]) AED: lastpage setting LastPage [7]
-(./SCITECH2015.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./SCITECH2015.aux) ) 
 Here is how much of TeX's memory you used:
  3782 strings out of 256216
- 51917 string characters out of 1917072
+ 51917 string characters out of 1917071
  114076 words of memory out of 1500000
  6956 multiletter control sequences out of 10000+200000
  70904 words of font info for 59 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
- 43i,11n,45p,2482b,374s stack positions out of 5000i,500n,6000p,200000b,15000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-9.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/
-fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.
-pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on SCITECH2015.pdf (7 pages, 1353539 bytes).
+ 43i,11n,45p,2492b,372s stack positions out of 5000i,500n,6000p,200000b,15000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mat
+hex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fo
+nts/enc/dvips/lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/shar
+e/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy8.pfb>
+Output written on SCITECH2015.pdf (7 pages, 1354893 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)

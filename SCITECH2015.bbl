@@ -90,6 +90,26 @@ Sinha, A., Alkandry, H., Kearney-Fischer, M., Samimy, M., and Colonius, T.,
   \enquote{The Impulse Response of a High-Speed Jet Forced with Localized Arc
   Filament Plasma Actuators,} {\em Physics of Fluids\/}, 2013.
 
+\bibitem{Crawley2015}
+Crawley, M., Sinha, A., and Samimy, M., \enquote{Near-field and Acoustic
+  Far-field Response of a High-Speed Jet Forced with Plasma Actuators,} {\em
+  AIAA Journal\/}, Accept, awaiting publication.
+
+\bibitem{gdv2011-POF}
+Gaitonde, D. and Samimy, M., \enquote{Coherent structures in plasma-actuator
+  controlled supersonic jets: Axisymmetric and mixed azimuthal modes,} {\em
+  Phys. Fluids\/}, Vol.~23, No.~9, 2011.
+
+\bibitem{speth2014}
+Speth, R. and Gaitonde, D., \enquote{Near Field Pressure and Associated
+  Coherent Structures of Excited Jets,} {\em 4th Joint US-European Fluids
+  Engineering Summer Meeting\/}, , No. FEDSM2014-21186, 2014.
+
+\bibitem{spethASME2013}
+Speth, R. and Gaitonde, D., \enquote{Correlation of Near Field Pressure with
+  Coherent Structures in an Excited Mach 1.3 Jet,} {\em ASME 2013 Fluids
+  Engineering Division Summer Meeting\/}, No. FEDSM2013-16495, 2013.
+
 \bibitem{Hahn2011}
 Hahn, C., {\em Design and Validation of the New Jet Facility and Anechoic
   Chamber\/}, Ph.D. thesis, The Ohio State University, Columbus, OH, 2011.
@@ -108,16 +128,6 @@ Utkin, Y., Keshav, S., Kim, J.-H., Kastner, J., Adamovich, I., and Samimy, M.,
 Hahn, C., Kearney-Fischer, M., and Samimy, M., \enquote{On factors influencing
   arc filament plasma actuator performance in control of high speed jets,} {\em
   Experiments in Fluids\/}, Vol.~51, No.~6, 2011, pp.~1591--1603.
-
-\bibitem{Crawley2015}
-Crawley, M., Sinha, A., and Samimy, M., \enquote{Near-field and Acoustic
-  Far-field Response of a High-Speed Jet Forced with Plasma Actuators,} {\em
-  AIAA Journal\/}, Accept, awaiting publication.
-
-\bibitem{gdv2011-POF}
-Gaitonde, D. and Samimy, M., \enquote{Coherent structures in plasma-actuator
-  controlled supersonic jets: Axisymmetric and mixed azimuthal modes,} {\em
-  Phys. Fluids\/}, Vol.~23, No.~9, 2011.
 
 \bibitem{SpethCF2013}
 Speth, R. and Gaitonde, D., \enquote{Parametric Study of a Mach 1.3 Cold Jet
@@ -162,11 +172,6 @@ Beam, R. and Warming, R., \enquote{{An Implicit Factored Scheme for the
 Bellan, J., \enquote{Supercritical (and Subcritical) Fluid Behavior and
   Modeling: Drops, Streams, Shear and Mixing Layers, Jets and Sprays,} {\em
   Prog. Energy Combust. Sci.\/}, Vol.~26, 2000, pp.~329--366.
-
-\bibitem{spethASME2013}
-Speth, R. and Gaitonde, D., \enquote{Correlation of Near Field Pressure with
-  Coherent Structures in an Excited Mach 1.3 Jet,} {\em ASME 2013 Fluids
-  Engineering Division Summer Meeting\/}, No. FEDSM2013-16495, 2013.
 
 \bibitem{SpethASM2012}
 Speth, R. and Gaitonde, D., \enquote{Parametric Study of a Supersonic Jet
