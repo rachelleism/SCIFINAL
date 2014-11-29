@@ -306,7 +306,13 @@ The assumed source region, required to compute $\tau_{con}$ and $\tau_{s}$, is a
 Results from the natural jet in the experimental database can be found in Fig. ~\ref{EXP_2ptcorr} for both the full near-field signal and the decomposed acoustic near field.
 In the full near-field signal, four distinct correlation regions can be observed comprising two physical phenomena. 
 In the most upstream region, the slopes of the correlations match the measured convective velocity of the large scale structures, with the peak correlation occurring just downstream of the end of the potential core ($x/D = 6$).
-Beyond this location, the 
+In order to align $\tau_{con}$ with the dominant convective correlation region, a source location of $x_{s}/D = 4$ was found to be necessary.
+Beyond this location, these correlation regions merge with the second set of correlation regions, which exhibit a slope indicative of acoustically-propagating waves. 
+These correlation regions start from almost negligible values upstream, strongly amplify near and just beyond the end of the potential core, and decay gradually in the most downstream region.
+Similar behavior was observed for the excited jet, which for brevity is not included here. 
+In the case of the excited jets, noticeably stronger convective correlations regions were observed, and a periodic pattern of oscillating positive and negative correlation regions, both in the convective and acoustic regions, was observed for the periodically excited jet.
+Additionally, the source location was found to shift upstream with increasing excitation $St_{DF}$. 
+
 
 \begin{figure}
 	\centering{}\subfloat[]{\includegraphics[width=3.25in]{St0_000_r1_20_ff30xcor_full.png}}\subfloat[]{\includegraphics[width=3.25in]{St0_000_r1_20_ff30xcor_acoustic.png}}
@@ -316,6 +322,13 @@ Beyond this location, the
 \begin{figure}
 	\centering{}{\includegraphics[width=3.25in]{Num_FFx1_phavg.png}}
 	\caption{Response to excitation in the simulated jet, phase-averaged waveforms at $x/D = 20.0, y/D = 9.0$.}\label{NUM_FF}
+\end{figure}
+
+\begin{figure}
+	\centering{}\subfloat[]{\includegraphics[width=3.25in]{Num_xcorr_NEARRAY1fullsignalsource10Dcorr.png}} \subfloat[]{\includegraphics[width=3.25in]{Num_xcorr_NEARRAY1supsource10Dcorr.png}} 
+	
+	\subfloat[]{\includegraphics[width=3.25in]{Num_xcorr_fullsignalArray1St005.png}} \subfloat[]{\includegraphics[width=3.25in]{Num_xcorr_St005superArray1corr.png}}
+	\caption{}\label{Num_2ptcorr}
 \end{figure}
 
 \section{Conclusions and Future Work}
