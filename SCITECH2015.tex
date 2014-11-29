@@ -61,10 +61,7 @@ Rachelle L. Speth\thanks{Graduate Research Assistant. Student Member, AIAA},
 \maketitle
 
 \begin{abstract}
-	Experimental and numerical databases are analyzed concurrently to explore the dynamics of large scale structure evolution and the resultant effect on the generated acoustic field. 
-A Mach 0.9 jet excited by plasma actuators to produce consistent coherent structures was studied using correlations. 
-The near field was further analyzed using acoustic and hydrodynamic decompositions.
-WHAT DID WE FIND?
+Experimental and numerical databases are analyzed concurrently to explore the dynamics of large scale structure evolution and the resultant effect on the generated acoustic field. The databases comprise an unheated, Mach 0.9 jet which is being excited by plasma actuators in order to produce coherent structures with a well-defined phase. The dynamical interactions of the generated large-scale structures are investigated using phase-averaging and iso-contours of Q-criterion. The near-field is then decomposed into its constitutive hydrodynamic and acoustic components using a spatio-temporal wavelet transform. Two-point correlations between the full and decomposed near-field, and the near- and far-field acoustic are utilized to identify the dominant acoustic source regions in both jets.    
 \end{abstract}
 
 \section{Introduction}
@@ -362,12 +359,14 @@ The reason behind this large discrepancy is not currently understood; future wor
 	\caption{Two-point correlations between the full near-field and acoustic component to the furthest downstream and radial position for the natural jet (a \& b, respectively) and the jet excited at $St_{DF} = 0.05$ (c \& d). Axial and radial positions match the location of the experimental array.}\label{Num_2ptcorr}
 \end{figure}
 
-\section{Conclusions and Future Work}
-A Mach 0.9 jet was analyzed using results obtained from experiments and computations to understand the noise source mechanism and the resultant acoustic field. 
-The linear superpositioning of phase-averaged waveforms shows that the large scale structures combine in a quasi-linear fashion for both the experiments and the computations. 
-Two-point correlations were used to compare the near jet (hydrodynamically dominant) region to the acoustically dominant near and far fields. 
-The full signal of the near field was also decomposed into hydrodynamic and acoustic portions through a wavelet decomposition technique. 
-These signals were correlated to the acoustic field to characterize the dependence of specific regions of the jet to the far field sound.
+\section{Conclusions}
+An unheated, Mach 0.9 jet undergoing excitation with plasma actuators was analyzed using results obtained from experiments and computations to understand the large-scale structure dynamics, and ultimately the noise source mechanism and the resultant acoustic field. Previous work by Sinha \textit{et al.}\cite{sinha2013} in the experimental database had found that individual actuation events produce temporally and spatially localized pressure fluctuations in the irrotational near-field - the impulse response of the jet - and the response to periodic excitation could be reconstructed from a linear superposition this impulse response. Through the use of phase-averaging and Q-criterion iso-contours, analysis of the numerical database found that this same principle applied inside the jet shear layer, albeit with less accuracy; indicating that the structure interactions are largely (though not entirely) linear in nature. Results also showed that the near and far acoustic field are also governed by this quasi-linear mechanism (though that is not to say that the noise generation process itself is necessarily linear).
+ 
+Two-point correlations were then used to compare the irrotational near jet (hydrodynamically dominant) region to the acoustically dominant near and far fields. 
+Results from both databases showed correlation regions matching the convection of the large-scale structures through the jet mixing layer. 
+The full signal of the near field was decomposed into hydrodynamic and acoustic components via a linear filter affected by a spatio-temporal wavelet transform, and correlations to the near and far acoustic field were recomputed. 
+From these, the dependence of specific regions of the jet to the far field sound was characterized.
+It was found that the dominant noise source regions (insofar as they correlated best to the near and far acoustic field in a linear sense) comprised an extended region of the jet. However, results diverged between the two databases as to the exact length of this region. In the experimental jet, the natural as well as the excited cases all indicated that the dominant source region was near or upstream of the end of the potential core (roughly $x/D = 6$), as did the excited cases in the simulated jet. However, the natural jet in the simulated database indicated an apparent source region extended much further downstream, to roughly $x/D = 10$. The cause of this discrepancy is currently under further investigation. 
 
 \section*{Acknowledgments}
    Computational resources were provided by the DoD HPCMP (AFRL, NAVO
