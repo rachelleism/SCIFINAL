@@ -282,9 +282,23 @@ In Crawley \textit{et al.} ~\cite{Crawley2015} the work of Sinha \textit{et al.}
 
 In order to identify the origin of the far-field acoustic emissions (both spatial and temporally), a decomposition of the near-field is desired, as the strong hydrodynamic pressure fluctuations associated directly with the passage of coherent structures largely mask the resultant weak acoustic radiation. As has been shown by Arndt \textit{et al.} \cite{Arndt1997},the irrotational near field of the jet comprises both the hydrodynamic footprint of the large-scale structures in the mixing layer as well as acoustic radiation. The analysis of Coiffect \textit{et al.} \cite{Coiffet2006} showed that the total near field can be thought of as a linear superposition of the hydrodynamic and acoustic fields. Therefore, a suitably designed linear filter can, in principle, extract the constitutive fields from the experimentally measured near field. 
 
+This was first done experimentally by Tinney \& Jordan ~\cite{Tinney2008}, using a linear array of microphones and a wavenumber-frequency filter in the Fourier domain to separate the irrotational near-field into subsonically- and supersonically-convecting waves. The author's justification for this algorithm was that in an unheated subsonic jet, the hydrodynamic pressure fluctuations will be aligned with the jet axis, and travelling subsonically. Acoustic pressure fluctuations will impinge on the linear microphone array at oblique angles and therefore will appear as having either sonic or supersonic phase velocity based on the source location. In the current work a similar method is used, though the two-dimensional Fourier transform has been replaced with a spatio-temporal wavelet transform. Sample results for this decomposition can be found in Fig. \ref{EXP_DECOMP} for the experimental database. Here, the full near-field pressure and the acoustic component of the irrotational near-field have been plotted against the far-field acoustic, in the spectral domain in the case of the natural jet and with phase-averaged waveforms in the jet excited at $ St_{DF}= 0.02$. The near-field signals were scaled in amplitude based on the propagative distance from the near-field microphone ($x/D = 8, y/D = 2.2$) in order to account for spherical propagation of the waves. This requires an assumption on the acoustic source region, which is not know with certainty. For the current work, the noise source location was assumed to be centered around $x_{s}/D = 8, y_{s}/D = 2.2$; the reasoning for this assumption will become more clear in short order.
+
+Additional details of the decomposition algorithm and validation in the experimental database can be found in Crawley \& Samimy ~\cite{crawley2014b}. 
+
 \begin{figure}
 	\centering{}\subfloat[]{\includegraphics[width=3.25in]{EXP_DECOMP_NFvFF_Spectra.png}}\subfloat[]{\includegraphics[width=3.25in]{EXP_DECOMP_NFvFF.png}}
-	\caption{Comparison of full and decomposed near-field signal at $x/D = 8, y/D = 2.2$ propagated to the far-field at $30^o$, for the natural jet (a) and the jet excited at $ St_{DF}= 0.05$ (b). }\label{EXP_DECOMP}
+	\caption{Comparison of full and decomposed near-field signal at $x/D = 8, y/D = 2.2$ propagated to the far-field at $30^o$, for the natural jet (a) and the jet excited at $St_{DF}= 0.02$ (b). }\label{EXP_DECOMP}
+\end{figure}
+
+\begin{figure}
+	\centering{}\subfloat[]{\includegraphics[width=3.25in]{St0_000_r1_20_ff30xcor_full.png}}\subfloat[]{\includegraphics[width=3.25in]{St0_000_r1_20_ff30xcor_acoustic.png}}
+	\caption{Two-point correlations between the full near-field (a) and acoustic component (b) in the experimental database to the far-field at $30^{o}$ for the natural jet.}\label{EXP_2ptcorr}
+\end{figure}
+
+\begin{figure}
+	\centering{}{\includegraphics[width=3.25in]{Num_FFx1_phavg.png}}
+	\caption{Response to excitation in the simulated jet, phase-averaged waveforms at $x/D = 20.0, y/D = 9.0$}\label{NUM_FF}
 \end{figure}
 
 \section{Conclusions and Future Work}
